@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     subscriber.onError(new Throwable("请求失败"));
                 }
             }
-        }).subscribeOn(Schedulers.newThread());// 切换线程Thread1
+        }).subscribeOn(Schedulers.newThread());// call()方法在Thread1回调
 
 
         observable
