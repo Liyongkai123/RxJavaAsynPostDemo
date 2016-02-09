@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RxJavaAsynPostDemo</string>
+    <string name="action_settings">Settings</string>
+</resources>
